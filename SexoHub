@@ -15,6 +15,19 @@ local Tab = Window:NewTab("Farm")
 local Section = Tab:NewSection("Treinamento")
 Section:NewToggle("FastPsy 1M", "ToggleInfo", function(state)
     if state then
+        local args = {
+            [1] = {
+                [1] = "Skill_Invisible",
+                [2] = "Start"
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+        wait(1)
+        plr = game.Players.LocalPlayer
+        hum = plr.Character.HumanoidRootPart
+        hum.CFrame = CFrame.new(-2542, 5487, -551) -- coloca a coordenada do lugar q vc quer teleportar aq
+        local Player = game.Players.LocalPlayer
         getgenv().AutoPsychic = true
 
 while AutoPsychic == true do
@@ -38,6 +51,19 @@ end
 end)
 Section:NewToggle("FastPsy 1B", "ToggleInfo", function(state)
     if state then
+        local args = {
+            [1] = {
+                [1] = "Skill_Invisible",
+                [2] = "Start"
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+        wait(1)
+        plr = game.Players.LocalPlayer
+        hum = plr.Character.HumanoidRootPart
+        hum.CFrame = CFrame.new(-2580, 5502, -429) -- coloca a coordenada do lugar q vc quer teleportar aq
+        local Player = game.Players.LocalPlayer
         getgenv().AutoPsychic = true
 
 while AutoPsychic == true do
@@ -61,6 +87,19 @@ end
 end)
 Section:NewToggle("FalsePsy 1T", "ToggleInfo", function(state)
     if state then
+        local args = {
+            [1] = {
+                [1] = "Skill_Invisible",
+                [2] = "Start"
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+        wait(1)
+        plr = game.Players.LocalPlayer
+        hum = plr.Character.HumanoidRootPart
+        hum.CFrame = CFrame.new(-2583, 5511, -516) -- coloca a coordenada do lugar q vc quer teleportar aq
+        local Player = game.Players.LocalPlayer
         getgenv().AutoPsychic = true
 
 while AutoPsychic == true do
@@ -84,6 +123,19 @@ end
 end)
 Section:NewToggle("FastPsy 1Qa", "ToggleInfo", function(state)
     if state then
+        local args = {
+            [1] = {
+                [1] = "Skill_Invisible",
+                [2] = "Start"
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+        wait(1)
+        plr = game.Players.LocalPlayer
+        hum = plr.Character.HumanoidRootPart
+        hum.CFrame = CFrame.new(-2572, 5387, -520) -- coloca a coordenada do lugar q vc quer teleportar aq
+        local Player = game.Players.LocalPlayer
         getgenv().AutoPsychic = true
 
 while AutoPsychic == true do
