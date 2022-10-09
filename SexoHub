@@ -13,12 +13,12 @@ Section:NewButton("Blackhub", "ButtonInfo", function()
 end)
 local Tab = Window:NewTab("Farm")
 local Section = Tab:NewSection("Treinamento")
-Section:NewToggle("FastPsy", "ToggleInfo", function(state)
+Section:NewToggle("FastPsy 1M", "ToggleInfo", function(state)
     if state then
         getgenv().AutoPsychic = true
 
 while AutoPsychic == true do
-    for FastPP = 1,5 do 
+    for FastPP = 1,9 do 
         wait()
 local args = {[1] = {[1] = "+PP3"}}
 game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
@@ -28,7 +28,7 @@ end
         getgenv().AutoPsychic = false
 
 while AutoPsychic == true do
-    for FastPP = 1,5 do 
+    for FastPP = 1,9 do 
         wait()
 local args = {[1] = {[1] = "+PP3"}}
 game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
@@ -36,12 +36,12 @@ end
 end
     end
 end)
-Section:NewToggle("FastPsy B", "ToggleInfo", function(state)
+Section:NewToggle("FastPsy 1B", "ToggleInfo", function(state)
     if state then
         getgenv().AutoPsychic = true
 
 while AutoPsychic == true do
-    for FastPP = 1,5 do 
+    for FastPP = 1,9 do 
         wait()
 local args = {[1] = {[1] = "+PP4"}}
 game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
@@ -51,7 +51,7 @@ end
         getgenv().AutoPsychic = false
 
 while AutoPsychic == true do
-    for FastPP = 1,5 do 
+    for FastPP = 1,9 do 
         wait()
 local args = {[1] = {[1] = "+PP4"}}
 game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
@@ -59,12 +59,12 @@ end
 end
     end
 end)
-Section:NewToggle("FalsePsy T", "ToggleInfo", function(state)
+Section:NewToggle("FalsePsy 1T", "ToggleInfo", function(state)
     if state then
         getgenv().AutoPsychic = true
 
 while AutoPsychic == true do
-    for FastPP = 1,5 do 
+    for FastPP = 1,9 do 
         wait()
 local args = {[1] = {[1] = "+PP5"}}
 game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
@@ -74,7 +74,7 @@ end
         getgenv().AutoPsychic = false
 
 while AutoPsychic == true do
-    for FastPP = 1,5 do 
+    for FastPP = 1,9 do 
         wait()
 local args = {[1] = {[1] = "+PP5"}}
 game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
@@ -82,12 +82,12 @@ end
 end
     end
 end)
-Section:NewToggle("FastPsy Qa", "ToggleInfo", function(state)
+Section:NewToggle("FastPsy 1Qa", "ToggleInfo", function(state)
     if state then
         getgenv().AutoPsychic = true
 
 while AutoPsychic == true do
-    for FastPP = 1,5 do 
+    for FastPP = 1,9 do 
         wait()
 local args = {[1] = {[1] = "+PP6"}}
 game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
@@ -97,7 +97,7 @@ end
         getgenv().AutoPsychic = false
 
 while AutoPsychic == true do
-    for FastPP = 1,5 do 
+    for FastPP = 1,9 do 
         wait()
 local args = {[1] = {[1] = "+PP6"}}
 game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
